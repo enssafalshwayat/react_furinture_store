@@ -6,7 +6,7 @@ export default class MySliders extends Component {
     state = {
         slider: [
             {   id: 1,
-                image: '/images/slide2.png',
+                image: '/public/images/slide2.png',
                 titleS: 'Great Design Collection',
                 title: 'Cloth Covered Accent Chair',
                 description:'Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit, Sed Do Eiuiana Smod Tempor Ut Labore Et Dolore Magna Aliqua. Ut Enim Ad Minim Veniam, Quis Nostrud Exercitation Ullamco Laboris Nisi Ut Aliquip.',
@@ -14,7 +14,7 @@ export default class MySliders extends Component {
                 oldPrice: '$499.00'
             },
             {   id: 2,
-                image: '/images/slide5.png',
+                image: '/public/images/slide5.png',
                 titleS: 'Great Design Collection',
                 title: 'Mapple Wood Accent Chair',
                 description:'Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit, Sed Do Eiuiana Smod Tempor Ut Labore Et Dolore Magna Aliqua. Ut Enim Ad Minim Veniam, Quis Nostrud Exercitation Ullamco Laboris Nisi Ut Aliquip.',
@@ -22,7 +22,7 @@ export default class MySliders extends Component {
                 oldPrice: '$599.00'
             },
             {   id: 3,
-                image: '/images/slide6.jpg',
+                image: '/public/images/slide6.jpg',
                 titleS: 'Great Design Collection',
                 title: 'Valvet Accent Arm Chair',
                 description:'Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit, Sed Do Eiuiana Smod Tempor Ut Labore Et Dolore Magna Aliqua. Ut Enim Ad Minim Veniam, Quis Nostrud Exercitation Ullamco Laboris Nisi Ut Aliquip.',
