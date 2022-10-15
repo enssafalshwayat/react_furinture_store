@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+.contact{
+    margin: 100px 0;
+    overflow: hidden;
+}
+
+.contact .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.contact .container .box {
+padding: 15px;
+}
+@media (max-width:991px) {
+    .contact .container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .contact .container .box{
+        width: 40%;
+    }
+}
+
+.contact .container .box h4{
+    color: #5f5b57;
+}
+
+.contact .container .box ul{
+    list-style: none;
+    margin: 40px 0;
+}
+
+.contact .container .box ul li {
+    margin-bottom: 5px;
+    color: #a09e9c;
+    transition: .2s;
+}
+
+.contact .container .box ul li:hover{
+    margin-left: 4px;
+    color: #e99c2e;
+}
+
+.contact .container .box p {
+    color: #a09e9c;
+    width: 60%;
+}
+@media (max-width:768px) {
+    .contact .container{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact .container .box{
+        width: 100%;
+        text-align: center;
+    }
+    .contact .container .box p {
+        width: 80%;
+        margin: 10px auto;
+    }
+}
+.contact .container .box .input-icon {
+    margin: 10px auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 10px  gray;
+}
+.contact .container .box .input-icon input {
+    border: 2px solid #eee;
+    padding: 5px 10px 5px 50px;
+    font-size: 18px;
+    line-height: 30px;
+    outline: 0;
+    display: block;
+    width: 100%;
+}
+
+.contact .container .box .input-icon span {
+    position: absolute;
+    right: 15px;
+    top: 0;
+    font-size: 25px;
+    color: #4b00ff;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e99c2e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

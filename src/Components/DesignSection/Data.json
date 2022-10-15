@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "image": "images/chair1.png",
+        "head": "Arm Chair",
+        "text":"Nemo enim ipsam voluptatem quia volu ptas sit asperna aut odit aut fugit."    
+    }, 
+    {
+        "id": 2,
+        "image": "images/chair2.png",
+        "head": "Latest Designed Stool and Chair",
+        "text": "Edi Ut Perspiciatis Unde Omnis Iste Natusina Error Sit Voluptatem Accusantium Doloret Mque Laudantium, Totam Rem Aperiam.",
+        "text_price":"Sales Start from",
+        "price":"$99.00",
+        "btn_text": "Discover More"
+    }, 
+    {
+        "id": 3,
+        "image":"images/chair3.png",
+        "head": "Hanging Lamp",
+        "text":"Nemo enim ipsam voluptatem quia volu ptas sit asperna aut odit"
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

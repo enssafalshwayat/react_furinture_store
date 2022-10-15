@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "image": "images/FetureProductSection/img1.jpg",
+        "name":"Designed Sofa",
+        "price": "$160.000"
+    }, 
+    {
+        "id": 2,
+        "image": "images/FetureProductSection/img2.jpg",
+        "name":"Dinning Table",
+        "price": "$200.000"
+    },
+    {
+        "id": 3,
+        "image": "images/FetureProductSection/img3.jpg",
+        "name":"Chair And Table",
+        "price": "$100.000"
+    },
+    {
+        "id": 4,
+        "image": "images/FetureProductSection/img4.jpg",
+        "name":"Modern Arm Chair",
+        "price": "$299.000"
+    }
+]

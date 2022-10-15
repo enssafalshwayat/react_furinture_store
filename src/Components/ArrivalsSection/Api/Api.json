@@ -1,0 +1,76 @@
+[
+    {
+        "id": 1,
+        "image": "images/arrivalimage/img1.png",
+        "name":"wooden Chair",
+        "price": "65.000",
+        "sale": "Sale"
+    },
+    {
+        "id": 2,
+        "image": "images/arrivalimage/img2.png",
+        "name":"Single Armchair",
+        "price": "80.000",
+        "sale" : "Sale"
+    }, 
+     {
+        "id": 3,
+        "image": "images/arrivalimage/img3.png",
+        "name":"wooden Chair",
+        "price": "40.000",
+        "sale" : ""
+
+    },
+    {
+        "id": 4,
+        "image": "images/arrivalimage/img4.png",
+        "name":"Stylish Chair",
+        "price": "100.000",
+        "sale": "Sale"
+    },
+    {
+        "id": 5,
+        "image": "images/arrivalimage/img8.png",
+        "name":"Modern Chair",
+        "price": "120.000",
+        "sale": ""
+    },
+    {
+        "id": 6,
+        "image": "images/arrivalimage/img6.png",
+        "name":"Mapple Wood Chair",
+        "price": "140.000",
+        "sale": "Sale"
+    },
+    {
+        "id": 7,
+        "image": "images/arrivalimage/img7.png",
+        "name":"Arm Chair",
+        "price": "90.000",
+        "sale": "Sale"
+    },
+    {
+        "id": 8,
+        "image": "images/arrivalimage/img9.png",
+        "name":"Wooden bed",
+        "price": "140.000",
+        "sale": ""
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

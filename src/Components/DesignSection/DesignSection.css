@@ -1,0 +1,108 @@
+.design-section{
+    overflow: hidden;
+    width: 100vw;
+    margin: 100px 0;
+}
+
+.design-section .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+/* .design-section .container .box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+.design-section .container .box2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:center;
+}
+
+.design-section .container .box-content .box-img img,
+.design-section .container .box-img img{
+    width: 60%;
+}
+.design-section .container .box2 img{
+    width: 100%;
+}
+.design-section .container .box2 .box-price{
+    color: #5f5b57 ;
+    margin: 10px;
+    text-align: justify;
+
+}
+.design-section .container .box2 .box-price b {
+    color: #e99c2e;
+    margin-left: 5px;
+}
+.design-section .container .box2 .box-btn {
+    padding: 5px 10px;
+    color: #5f5b57;
+    border: 1px solid #5f5b57;
+    transition: .3s;
+    margin: 10px 0;
+    background-color: #fff;
+}
+@media(max-width:991px) {
+    .design-section .container{
+        flex-direction: column;
+        gap: 10px;
+    } 
+    .design-section .container .box2 {
+       flex-direction: column;
+       justify-content: center;
+       align-items: center; 
+       margin: 10px auto;
+       padding: 10px;
+    }
+    .design-section .container .box2 .box-btn {
+        margin: 10px auto;
+    }
+}
+.design-section .container .box2 .box-btn:hover {
+    background-color: #5f5b57;
+    color: white;
+
+}
+
+.design-section .container .box-content .box-head {
+    color:#5f5b57;
+    transition: 0.3s;
+    font-size: 20px;
+
+    
+}
+.design-section .container .box-content .box-head:hover{
+    color: #e99c2e;
+  
+}
+
+.design-section .container .box-content .box-text {
+    color : #a09e9c ;
+    margin: 10px;
+    text-align: justify;
+}
+.design-section .container .box1 .box-text,
+.design-section .container .box3 .box-text {
+    margin: 10px 40px;
+
+}
+
+
+/* .design-section .container .box */
+
+
+
+
+
+
+
+
