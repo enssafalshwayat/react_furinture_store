@@ -33,7 +33,7 @@ export default class MySliders extends Component {
         <div>
             <div className='slider-container container'>                
                  <Slider {...settings}>
-                    {this.state.slider.map((item,index)=> {
+                    {this.state.sliders.map((item,index)=> {
                         return(
                             <SliderContent key={index} item={item} />
                         )
