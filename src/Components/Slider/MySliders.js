@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './MySliders.css'
-import { mydata } from './sliders'
+import { sliders } from './sliders'
 import Slider from 'react-slick'
 import SliderContent from './SliderContent'
 
@@ -9,12 +9,12 @@ import SliderContent from './SliderContent'
 
 export default class MySliders extends Component {
     state = {
-        sliders: []
+        slider: []
     }
 
     componentDidMount = ()=> {
         this.setState({
-            sliders: mydata
+            slider: sliders
         })
     }
 
@@ -33,7 +33,7 @@ export default class MySliders extends Component {
         <div>
             <div className='slider-container container'>                
                  <Slider {...settings}>
-                    {this.state.sliders.map((item,index)=> {
+                    {this.state.slider.map((item,index)=> {
                         return(
                             <SliderContent key={index} item={item} />
                         )
