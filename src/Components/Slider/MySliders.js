@@ -1,4 +1,4 @@
-import React, { Component, useEffect, useState } from 'react'
+import React, { Component } from 'react'
 import './MySliders.css'
 import { mydata } from './sliders'
 import Slider from 'react-slick'
@@ -20,7 +20,6 @@ export default class MySliders extends Component {
 
 
   render() {
-    console.log(this.state.slider)
     const settings = {
         dots: true,
         inifinte: true,
