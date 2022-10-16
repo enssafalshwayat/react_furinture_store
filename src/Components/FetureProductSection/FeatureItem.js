@@ -5,7 +5,7 @@ export default function FeatureItem(props) {
   return (
     <div className='box'>
         <div className='box-img'>
-            <img src={item.image} alt='feature-image'/>
+            <img src={item.image} alt='feature section'/>
         </div>
         <div className='content'>
             <div className='rate'>

@@ -5,7 +5,7 @@ export default function BlogItem(props) {
   return (
     <div className='box'>
         <div className='box-img'>
-            <img src={item.image} alt='blog iamge'/>
+            <img src={item.image} alt='blog section'/>
         </div>
         <div className='box-content'>
            <h5 className='title'>{item.title}</h5>

@@ -15,7 +15,7 @@ export default function SliderContent(props) {
                 </div>
             </div>
             <div className='slide-img'>
-                <img src={item.image} alt="image slider"/>
+                <img src={item.image} alt="slider section"/>
             </div>
         </div>
                

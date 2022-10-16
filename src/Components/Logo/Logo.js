@@ -26,7 +26,7 @@ export default function Logo() {
             {logo.map((item, index) => {
               return(
                 <div key={index} className='box'>
-                     <img src={item.image} alt='logo image' />
+                     <img src={item.image} alt='logo section' />
                 </div>
               )
             })}

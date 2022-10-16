@@ -17,7 +17,7 @@ export default function Arrivalsscetion() {
                         <div className='box'>
                             <div className='box-img'>
                                 {item.sale.length > 0 ? (<p className='sale'>{item.sale}</p>): (<p className='hide'></p>)}
-                                <img src={item.image} alt='arrivals-images'/>
+                                <img src={item.image} alt='arrivals section'/>
                            
                                 <div className='cart'>
                                     <p>
