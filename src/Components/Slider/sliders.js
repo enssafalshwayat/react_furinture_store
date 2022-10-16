@@ -1,4 +1,4 @@
-import slide from '../../assests/images/chair1.png'
+import slide from '../../assests/images/slide2.png'
 import slide1 from '../../assests/images/slide5.png'
 import slide2 from '../../assests/images/slide6.jpg'
 export const sliders =
