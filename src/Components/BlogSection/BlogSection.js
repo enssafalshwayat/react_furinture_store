@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react'
-import blogs from './Api/Api'
 import './BlogSection.css'
 import BlogItem from './BlogItem';
+import { mydata } from './Api/Api';
 export default function BlogSection() {
 
     const [allBlogs, setAllBlogs] = useState([]);
 
     useEffect(()=> {
-        blogs.getAllBlog().then((res) => setAllBlogs(res))
+        setAllBlogs(mydata)
     }, [allBlogs])
   return (
     <div className='blog-section'>

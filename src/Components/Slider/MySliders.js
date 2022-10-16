@@ -1,8 +1,11 @@
-import React, { Component } from 'react'
+import React, { Component, useEffect, useState } from 'react'
 import './MySliders.css'
 import { sliders } from './sliders'
 import Slider from 'react-slick'
 import SliderContent from './SliderContent'
+
+
+
 export default class MySliders extends Component {
     state = {
         slider: sliders
