@@ -6,7 +6,7 @@ export default function Logo() {
 
     useEffect(()=> {
       setlogo(mydata)
-    })
+    }, [logo])
   return (
     <div className='logo-section'>
         <div className='container'>
