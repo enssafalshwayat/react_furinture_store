@@ -9,12 +9,12 @@ import SliderContent from './SliderContent'
 
 export default class MySliders extends Component {
     state = {
-        slider: []
+        sliders: []
     }
 
     componentDidMount = ()=> {
         this.setState({
-            slider: mydata
+            sliders: mydata
         })
     }
 
