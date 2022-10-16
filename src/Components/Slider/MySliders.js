@@ -6,7 +6,7 @@ export default class MySliders extends Component {
     state = {
         slider: [
             {   id: 1,
-                image: '../../images/slide2.png',
+                image: 'process.env.PUBLIC_UR/images/slide2.png',
                 titleS: 'Great Design Collection',
                 title: 'Cloth Covered Accent Chair',
                 description:'Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit, Sed Do Eiuiana Smod Tempor Ut Labore Et Dolore Magna Aliqua. Ut Enim Ad Minim Veniam, Quis Nostrud Exercitation Ullamco Laboris Nisi Ut Aliquip.',
