@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from 'react'
-import products from './Api/Api'
 import FeatureItem from './FeatureItem';
 import './FetureProductSection.css'
+import { mydata } from './Api/Api';
 
 export default function FetureProductSection() {
 
     const [productArr, setProductArr] = useState([]);
 
     useEffect(() => {
-        products.getAllFeatureProduct().then((res) => setProductArr(res))
+      setProductArr(mydata)
     }, [productArr])
 
   return (

@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react'
-import data from './Api/Api';
 import './Arrivalssection.css'
+import { myarr } from './Api/Api';
 export default function Arrivalsscetion() {
     const [arrivalsArr, setArrivalsArr] = useState([]);
 
     useEffect(()=> {
-        data.getAllArrivals().then((res)=> setArrivalsArr(res))
+        setArrivalsArr(myarr)
     }, [arrivalsArr])
   return (
     <div className='arrivals-section'>

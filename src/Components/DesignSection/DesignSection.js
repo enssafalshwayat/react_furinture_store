@@ -1,17 +1,13 @@
 import React, { useEffect, useState } from 'react'
-import datajson from './Data.js'
 import DesignSctionItem from './DesignSctionItem.js'
 import './DesignSection.css'
+import { mydata } from './Data.js'
 export default function DesignSection() {
 
     const [myarr, setMyArr] = useState([])
 
     useEffect(() => {
-        datajson.getAll().then((res)=>{
-            return(
-                setMyArr(res)
-            )
-        })
+       setMyArr(mydata)
     },[myarr])
   return (
     <div className='design-section'>
