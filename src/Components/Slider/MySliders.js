@@ -1,6 +1,6 @@
 import React, { Component, useEffect, useState } from 'react'
 import './MySliders.css'
-import { sliders } from './sliders'
+import { mydata } from './sliders'
 import Slider from 'react-slick'
 import SliderContent from './SliderContent'
 
@@ -8,7 +8,7 @@ import SliderContent from './SliderContent'
 
 export default class MySliders extends Component {
     state = {
-        slider: sliders
+        slider: mydata
     }
   render() {
     const settings = {
