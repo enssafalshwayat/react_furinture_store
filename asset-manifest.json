@@ -1,16 +1,34 @@
 {
   "files": {
     "main.css": "/react_furinture_store/static/css/main.9104b1fb.css",
-    "main.js": "/react_furinture_store/static/js/main.1496f89a.js",
+    "main.js": "/react_furinture_store/static/js/main.d10e4b18.js",
     "static/js/787.d3befce1.chunk.js": "/react_furinture_store/static/js/787.d3befce1.chunk.js",
-    "static/media/img1.jpg": "/react_furinture_store/static/media/img1.cad18d6110083dc5f0df.jpg",
+    "static/media/chair2.png": "/react_furinture_store/static/media/chair2.08d196e5d0c8855b9724.png",
+    "static/media/slide2.png": "/react_furinture_store/static/media/slide2.35af8176fbe94238558d.png",
+    "static/media/img6.png": "/react_furinture_store/static/media/img6.aeb9bca1ebab84dcfa15.png",
+    "static/media/chair1.png": "/react_furinture_store/static/media/chair1.65f69a80a680b90fc753.png",
+    "static/media/img4.png": "/react_furinture_store/static/media/img4.5aaa2ab4f84e3c7336fe.png",
+    "static/media/img1.jpg": "/react_furinture_store/static/media/img1.63085f3313b37f95ecbf.jpg",
+    "static/media/slide5.png": "/react_furinture_store/static/media/slide5.6137d5c40429701dd80d.png",
+    "static/media/img8.png": "/react_furinture_store/static/media/img8.797d89c621213abb9f2e.png",
+    "static/media/img1.png": "/react_furinture_store/static/media/img1.334c7895047631b8e1ce.png",
+    "static/media/img7.png": "/react_furinture_store/static/media/img7.20c762f9251033d2aecb.png",
+    "static/media/chair3.png": "/react_furinture_store/static/media/chair3.57fb7518ffd5a15961d8.png",
+    "static/media/img2.png": "/react_furinture_store/static/media/img2.33dd47e420a426ed99da.png",
+    "static/media/img3.png": "/react_furinture_store/static/media/img3.082ac3f9040fa0a3099f.png",
+    "static/media/img9.png": "/react_furinture_store/static/media/img9.c9765c8db442f247c120.png",
+    "static/media/img2.jpg": "/react_furinture_store/static/media/img2.588359694197550f9a98.jpg",
+    "static/media/img3.jpg": "/react_furinture_store/static/media/img3.3394f079b99e18453422.jpg",
+    "static/media/img0.png": "/react_furinture_store/static/media/img0.e0f63c9fed01425f6c1c.png",
+    "static/media/img4.jpg": "/react_furinture_store/static/media/img4.a8b3672c4bf10d5aa700.jpg",
+    "static/media/slide6.jpg": "/react_furinture_store/static/media/slide6.7e529232554de5583a68.jpg",
     "index.html": "/react_furinture_store/index.html",
     "main.9104b1fb.css.map": "/react_furinture_store/static/css/main.9104b1fb.css.map",
-    "main.1496f89a.js.map": "/react_furinture_store/static/js/main.1496f89a.js.map",
+    "main.d10e4b18.js.map": "/react_furinture_store/static/js/main.d10e4b18.js.map",
     "787.d3befce1.chunk.js.map": "/react_furinture_store/static/js/787.d3befce1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9104b1fb.css",
-    "static/js/main.1496f89a.js"
+    "static/js/main.d10e4b18.js"
   ]
 }
