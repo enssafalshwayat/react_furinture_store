@@ -7,6 +7,7 @@ import FetureProductSection from './Components/FetureProductSection/FetureProduc
 import BlogSection from './Components/BlogSection/BlogSection';
 import Logo from './Components/Logo/Logo';
 import Contact from './Components/Contact/Contact';
+import Footer from './Components/Footer/Footer'
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
      <BlogSection/>
      <Logo/>
      <Contact/>
+     <Footer/>
     </div>
   );
 }
