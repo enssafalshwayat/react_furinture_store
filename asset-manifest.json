@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react_furinture_store/static/css/main.78e1820d.css",
-    "main.js": "/react_furinture_store/static/js/main.c630c9c8.js",
+    "main.css": "/react_furinture_store/static/css/main.f8c27feb.css",
+    "main.js": "/react_furinture_store/static/js/main.c7a0f672.js",
     "static/js/787.d3befce1.chunk.js": "/react_furinture_store/static/js/787.d3befce1.chunk.js",
     "static/media/chair2.png": "/react_furinture_store/static/media/chair2.08d196e5d0c8855b9724.png",
     "static/media/slide2.png": "/react_furinture_store/static/media/slide2.35af8176fbe94238558d.png",
@@ -23,12 +23,12 @@
     "static/media/img4.jpg": "/react_furinture_store/static/media/img4.a8b3672c4bf10d5aa700.jpg",
     "static/media/slide6.jpg": "/react_furinture_store/static/media/slide6.7e529232554de5583a68.jpg",
     "index.html": "/react_furinture_store/index.html",
-    "main.78e1820d.css.map": "/react_furinture_store/static/css/main.78e1820d.css.map",
-    "main.c630c9c8.js.map": "/react_furinture_store/static/js/main.c630c9c8.js.map",
+    "main.f8c27feb.css.map": "/react_furinture_store/static/css/main.f8c27feb.css.map",
+    "main.c7a0f672.js.map": "/react_furinture_store/static/js/main.c7a0f672.js.map",
     "787.d3befce1.chunk.js.map": "/react_furinture_store/static/js/787.d3befce1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.78e1820d.css",
-    "static/js/main.c630c9c8.js"
+    "static/css/main.f8c27feb.css",
+    "static/js/main.c7a0f672.js"
   ]
 }
