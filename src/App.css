@@ -2,12 +2,24 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Lora', serif;
+
 }
 
 .App {
   overflow: hidden;
 }
+.scroll-to-top{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 40px;
+  color: #e99c2e;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
