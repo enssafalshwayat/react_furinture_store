@@ -12,7 +12,7 @@ export default function FetureProductSection() {
     }, [productArr])
 
   return (
-    <div className='FetureProductSection'>
+    <div id='FetureProductSection' className='FetureProductSection'>
         <h2>Featured Products</h2>
         <div className='container'>
             

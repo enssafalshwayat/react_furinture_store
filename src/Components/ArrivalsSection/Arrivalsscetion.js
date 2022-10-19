@@ -8,7 +8,7 @@ export default function Arrivalsscetion() {
         setArrivalsArr(myarr)
     }, [arrivalsArr])
   return (
-    <div className='arrivals-section'>
+    <div id='arrivalsection' className='arrivals-section'>
         <h2>New Arrivals</h2>
         <div className='container'>
             {arrivalsArr.map((item, index)=> {

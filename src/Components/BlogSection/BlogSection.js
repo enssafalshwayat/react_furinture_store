@@ -10,7 +10,7 @@ export default function BlogSection() {
         setAllBlogs(mydata)
     }, [allBlogs])
   return (
-    <div className='blog-section'>
+    <div id='blogs' className='blog-section'>
         <h2>Latest Blog</h2>
         <div className='container'>
             {allBlogs.map((item,index) => {
