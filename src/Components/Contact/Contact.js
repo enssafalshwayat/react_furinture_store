@@ -2,7 +2,7 @@ import React from 'react'
 import './Contact.css'
 export default function Contact() {
   return (
-    <div className='contact'>
+    <div id='contact' className='contact'>
         <div className='container'>
            
             <div className='box'>
