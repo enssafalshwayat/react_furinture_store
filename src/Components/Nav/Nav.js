@@ -1,6 +1,9 @@
 import React from 'react'
 import './Nav.css'
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
+import {Link, Route, Routes} from 'react-router-dom'
+import HomePage from '../../Pages/HomePage/HomePage'
+import Bedroom from '../../Pages/BedroomPage/Bedroom'
 
 export default function Nav() {
   return (
@@ -19,15 +22,30 @@ export default function Nav() {
                         <li className="nav-item">
                         <Link 
                          to="/"
-                         spy={true}
-                         smooth={true}
-                         offset={-70}
-                         duration={1000}
                          className="nav-link active" aria-current="page" >
-                        Home</Link>
-                            
+                        Home</Link>    
                         </li>
+                     
                         <li className="nav-item">
+                        <Link 
+                         to="/bedroom"
+                         className="nav-link active" aria-current="page" >
+                        Bedroom</Link>    
+                        </li>
+                       
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <Routes>
+          <Route path='/' element={<HomePage/>}/>
+          <Route path='/bedroom' element={<Bedroom/>}/>
+        </Routes>
+    </div>
+  )
+  }
+/**
+ *    {/* <li className="nav-item">
                         <Link
                          to="arrivalsection"
                          spy={true}
@@ -51,13 +69,7 @@ export default function Nav() {
                          duration={1000} className="nav-link">Blogs</Link>
                         </li>
 
-                        <li className="nav-item">
-                        <Link to=""
-                         spy={true}
-                         smooth={true}
-                         offset={-70}
-                         duration={1000} className="nav-link">Contact</Link>
-                        </li>
+                       
 
                         <li className="nav-item">
                         <Link to="contact"
@@ -65,13 +77,6 @@ export default function Nav() {
                          smooth={true}
                          offset={-70}
                          duration={1000} className="nav-link">Contact</Link>
-                        </li>
+                        </li> */
 
-                       
-                    </ul>
-                </div>
-            </div>
-    </nav>
-    </div>
-  )
-}
+ 
