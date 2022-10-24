@@ -52,12 +52,22 @@ export default function Nav() {
                         </li>
 
                         <li className="nav-item">
+                        <Link to=""
+                         spy={true}
+                         smooth={true}
+                         offset={-70}
+                         duration={1000} className="nav-link">Contact</Link>
+                        </li>
+
+                        <li className="nav-item">
                         <Link to="contact"
                          spy={true}
                          smooth={true}
                          offset={-70}
                          duration={1000} className="nav-link">Contact</Link>
                         </li>
+
+                       
                     </ul>
                 </div>
             </div>
