@@ -11,6 +11,7 @@ import Footer from './Components/Footer/Footer';
 import Nav from './Components/Nav/Nav';
 import {Link} from 'react-scroll'
 import { useEffect, useState } from 'react';
+import Bedroom from './Components/Bedrooms/Bedroom';
 function App() {
   const [showbutton, setshowbutton] = useState(false)
 
@@ -51,6 +52,7 @@ function App() {
         <i className="fa fa-arrow-circle-up" aria-hidden="true"></i>
       </button>
      )}
+     <Bedroom/>
     </div>
   );
 }
