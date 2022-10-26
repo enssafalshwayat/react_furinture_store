@@ -1,24 +1,22 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './beds.css'
 import {mydata} from './API'
+import BedroomItem from './BedroomItem'
 export default function Bedroom() {
+
+   const detailsFunc = (id) => {
+    console.log(id)
+    mydata.find((item)=> item.id === id);
+   }
   return (
     <div className='bedroom-section container'>
         <div className=''>
             <h2 className='head'>Bed Room</h2>
             <div className='row'>
-                {mydata.map((item, index) => {
+                {mydata.map((item, id) => {
                     return (
-                        <div className='col-sm-12 col-md-6 col-lg-3' key={index}>
-                           <div className='card'>
-                                <img src={item.image} alt='card-img'/>
-                                <div className='card-body'>
-                                    <h4 className='card-title'>{item.name}</h4>
-                                    <p className='card-text'>Price: {item.price}</p>
-                                    <p className='card-color'>Color: {item.color}</p>
-                                    <a href="#" className="btn btn-primary">Details</a>
-                                </div>
-                           </div>
+                        <div className='col-sm-12 col-md-6 col-lg-3' key={id}>
+                           <BedroomItem item = {item} detailsFunc = {detailsFunc} />
                         </div>
                     )
                 })}
