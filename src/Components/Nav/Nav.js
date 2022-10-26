@@ -4,6 +4,7 @@ import './Nav.css'
 import {Link, Route, Routes} from 'react-router-dom'
 import HomePage from '../../Pages/HomePage/HomePage'
 import Bedroom from '../../Pages/BedroomPage/Bedroom'
+import BedroomProductsDetails from '../BedroomComponents/BedroomProductsDetails'
 
 export default function Nav() {
   return (
@@ -38,8 +39,9 @@ export default function Nav() {
             </div>
         </nav>
         <Routes>
-          <Route path='/' element={<HomePage/>}/>
-          <Route path='/bedroom' element={<Bedroom/>}/>
+          <Route exact path='/' element={<HomePage/>}/>
+          <Route exact path='/bedroom' element={<Bedroom/>}/>
+          <Route exact path='/bedroom/:id' element={<BedroomProductsDetails/>} />
         </Routes>
     </div>
   )

@@ -29,7 +29,7 @@ export const mydata = [
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {
-        id: 3,
+        id: 2,
         image: img3,
         price: 350,
         name: 'Option 3',
@@ -37,7 +37,7 @@ export const mydata = [
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {
-        id: 4,
+        id: 3,
         image: img4,
         price: 400,
         name: 'Option 4',
@@ -45,7 +45,7 @@ export const mydata = [
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {
-        id: 5,
+        id: 4,
         image: img5,
         price: 450,
         name: 'Option 5',
@@ -53,7 +53,7 @@ export const mydata = [
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {
-        id: 6,
+        id: 5,
         image: img6,
         price: 500,
         name: 'Option 6',
@@ -61,7 +61,7 @@ export const mydata = [
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {
-        id: 7,
+        id: 6,
         image: img7,
         price: 650,
         name: 'Option 7',
@@ -69,7 +69,7 @@ export const mydata = [
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {
-        id: 8,
+        id: 7,
         image: img8,
         price: 700,
         name: 'Option 8',
@@ -77,7 +77,7 @@ export const mydata = [
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {
-        id: 9,
+        id: 8,
         image: img9,
         price: 850,
         name: 'Option 9',
@@ -85,7 +85,7 @@ export const mydata = [
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {
-        id: 10,
+        id: 9,
         image: img10,
         price: 650,
         name: 'Option 10',
@@ -93,7 +93,7 @@ export const mydata = [
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {
-        id: 11,
+        id: 10,
         image: img11,
         price: 900,
         name: 'Option 11',
@@ -101,7 +101,7 @@ export const mydata = [
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {
-        id: 12,
+        id: 11,
         image: img12,
         price: 650,
         name: 'Option 12',
@@ -109,3 +109,4 @@ export const mydata = [
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     }
 ]
+
